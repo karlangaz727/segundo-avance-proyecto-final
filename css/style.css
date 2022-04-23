@@ -1,0 +1,101 @@
+*, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    /*Logo,Menu y Titulos*/
+    font-family: 'Roboto', sans-serif;
+    /*Subtitulos*/
+    font-family: 'Old Standard TT', serif;
+    /*Paragraph o texto*/
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(255, 255, 255);
+   }
+
+div.container-fluid.mt-3.bg-image{
+  background-image: url('../assets/images/Banner_loby.jpg' ); 
+  height: 91vh; ;
+  
+}
+h1{
+  /*Logo,Menu y Titulos*/
+  font-family: 'Roboto', sans-serif;
+}
+h2{
+  /*Subtitulos*/
+  font-family: 'Old Standard TT', serif;
+}
+p{
+   /*Paragraph o texto*/
+   font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Home Nosotros*/
+  div.banner img{
+    max-width: 100%;
+    height: auto;
+  } 
+
+/* home- Servicios */
+
+
+#home-servicios{
+  background-image: linear-gradient(to right, rgb(129, 197, 182) , rgba(185, 221, 230, 0.438));
+}
+
+  .bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+  }
+
+  @media (min-width: 540px)
+  {
+    h1{
+      /*Logo,Menu y Titulos*/
+      font-family: 'Roboto', sans-serif;
+  
+      
+    }
+    
+  }
+
+@media (min-width: 768px)
+{
+  
+  .col-sm-6
+  {
+    width: 20%;
+    float: left;
+  }
+}
+@media (min-width: 992px)
+{
+  .col-md-6
+  {
+    width: 50%;
+    float: left;
+  }
+}
+@media (min-width: 1200px){
+
+  .col-lg-6
+  {
+    width: 50%;
+    float: left;
+  }
+}
+
+.container footer{
+  background-color: #55c9b5;
+
+}
+
+.container-footer{
+  background-color: #55c9b5;
+
+}
+
